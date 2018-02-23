@@ -11,7 +11,7 @@ var React = require('react');
 var Examples = (props) => {
   return (
     <div>
-      <h2>Examples Components</h2>
+      <h2>Examples Components!</h2>
     </div>
   );
 }
