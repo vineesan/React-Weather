@@ -12,6 +12,7 @@ var Examples = (props) => {
   return (
     <div>
       <h2>Examples Components!</h2>
+      <p>Welcome to Example page</p>
     </div>
   );
 }
