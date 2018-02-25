@@ -12,7 +12,7 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About!</h1>
+      <h1 className="text-center page-tilte">About!</h1>
       <p>It is my first React Weather Application built in complite React</p>
       <p>Here I some of the tools I Used:</p>
       <ul>
