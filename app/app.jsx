@@ -7,6 +7,7 @@ var About = require('About');
 var Examples = require('Examples');
 var Time = require('Time');
 var Counter = require('Counter');
+var Todo = require('Todo');
 //Loading Foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Route path="examples" component={Examples}/>
       <Route path="time" component={Time}/>
       <Route path="counter" component={Counter}/>
+      <Route path="todo" component={Todo}/>
       <IndexRoute component={Weather}/>
     </Route>
   </Router>,

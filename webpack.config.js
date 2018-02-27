@@ -31,6 +31,7 @@ module.exports = {
       Time: 'app/components/Time.jsx',
       Counter: 'app/components/Counter.jsx',
       Clock: 'app/components/Clock.jsx',
+      Todo: 'app/components/Todo.jsx',
       CountDownForm: 'app/components/CountDownForm.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx',
       ErrorModal: 'app/components/ErrorModal.jsx',
