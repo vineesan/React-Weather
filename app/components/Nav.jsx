@@ -21,7 +21,7 @@ var Nav = React.createClass({
     // alert(location);
     if(location.length > 0) {
       this.refs.search.value = '';
-      window.location.hash = '#/?location=' + encodedLocation; 
+      window.location.hash = '#/?location=' + encodedLocation;
     }
   },
   render: function() {
@@ -40,6 +40,9 @@ var Nav = React.createClass({
             </li>
             <li>
               <Link to="/examples" activeStyle={{fontWeight: 'bold'}} activeClassName="active">Examples</Link>
+            </li>
+            <li>
+              <Link to="/time" activeStyle={{fontWeight: 'bold'}} activeClassName="active">Time</Link>
             </li>
           </ul>
         </div>
