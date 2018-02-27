@@ -1,7 +1,3 @@
-$title-space: 2.5rem;
-$title-color: #aaa;
-.page-tilte {
-  margin-top: $title-space;
-  margin-bottom: $title-space;
-  color: $title-color;
-}
+@import "base/variables";
+@import "components/navigation";
+@import "components/clock";
